@@ -1,0 +1,39 @@
+﻿Сборка начата 25.02.2025 14:12:06.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\admin\Documents\уник\4 СЕМ\МП\Lab2\Subsets(Task1)\Subsets(Task1).vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Subsets(Task1).vcxproj).  Это может привести к ошибкам очистки и перестроения.
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+     1>InitializeBuildStatus:
+         Создание "Debug\Task1.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\Task1.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Combi.cpp "Subsets(Task1).cpp"
+         Combi.cpp
+     1>C:\Users\admin\Documents\уник\4 СЕМ\МП\Lab2\Subsets(Task1)\Combi.cpp(47,37): warning C4334: <<: результат 32-разрядного смещения неявно преобразуется в 64-разрядное значение (предполагалось 64-разрядное смещение?)
+         Subsets(Task1).cpp
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\Documents\уник\4 СЕМ\МП\Lab2\Debug\Task1.exe" /INCREMENTAL /ILK:"Debug\Task1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\admin\Documents\уник\4 СЕМ\МП\Lab2\Debug\Task1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\Documents\уник\4 СЕМ\МП\Lab2\Debug\Task1.lib" /MACHINE:X86 Debug\Combi.obj
+         "Debug\Subsets(Task1).obj"
+         Subsets(Task1).vcxproj -> C:\Users\admin\Documents\уник\4 СЕМ\МП\Lab2\Debug\Task1.exe
+       TlogCleanup:
+         Следующие элементы будут удалены из tlogs, так как они были удалены из проекта или сборки: D:\БГТУ\IV сем\Мат. прога\Lab2\Subsets(Task1)\Combi.cpp.
+       FinalizeBuildStatus:
+         Файл "Debug\Task1.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Task1.tlog\Task1.lastbuildstate".
+     1>Сборка проекта "C:\Users\admin\Documents\уник\4 СЕМ\МП\Lab2\Subsets(Task1)\Subsets(Task1).vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\admin\Documents\уник\4 СЕМ\МП\Lab2\Subsets(Task1)\Subsets(Task1).vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект PrepareForBuild) -> 
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Subsets(Task1).vcxproj).  Это может привести к ошибкам очистки и перестроения.
+
+
+       "C:\Users\admin\Documents\уник\4 СЕМ\МП\Lab2\Subsets(Task1)\Subsets(Task1).vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\admin\Documents\уник\4 СЕМ\МП\Lab2\Subsets(Task1)\Combi.cpp(47,37): warning C4334: <<: результат 32-разрядного смещения неявно преобразуется в 64-разрядное значение (предполагалось 64-разрядное смещение?)
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:00.88

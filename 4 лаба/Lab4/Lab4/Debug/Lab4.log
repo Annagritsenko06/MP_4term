@@ -1,0 +1,28 @@
+﻿Сборка начата 08.04.2025 17:25:40.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\admin\Documents\уник\4 СЕМ\МП\4 лаба\Lab4\Lab4\Lab4.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\Lab4.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\Lab4.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\Documents\уник\4 СЕМ\МП\4 лаба\Lab4\Debug\Lab4.exe" /INCREMENTAL /ILK:"Debug\Lab4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\admin\Documents\уник\4 СЕМ\МП\4 лаба\Lab4\Debug\Lab4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\Documents\уник\4 СЕМ\МП\4 лаба\Lab4\Debug\Lab4.lib" /MACHINE:X86 Debug\LCH.obj
+         Debug\LCS.obj
+         Debug\Levenshtein.obj
+         Debug\main.obj
+         Debug\MultyMatrix.obj
+         Debug\strGenerate.obj
+         Lab4.vcxproj -> C:\Users\admin\Documents\уник\4 СЕМ\МП\4 лаба\Lab4\Debug\Lab4.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Lab4.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Lab4.tlog\Lab4.lastbuildstate".
+     1>Сборка проекта "C:\Users\admin\Documents\уник\4 СЕМ\МП\4 лаба\Lab4\Lab4\Lab4.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.02
